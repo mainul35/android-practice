@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Implicit Intent</string>
+    <string name="no_component_err_msg">No component found</string>
+</resources>

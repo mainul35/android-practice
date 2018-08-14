@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Control Inputs</string>
+
+    <string-array name="cityArray">
+        <item>Dhaka</item>
+        <item>Chottogram</item>
+        <item>Rajshahi</item>
+        <item>Khulna</item>
+        <item>Barishal</item>
+        <item>Sylhet</item>
+        <item>Rangpur</item>
+    </string-array>
+</resources>

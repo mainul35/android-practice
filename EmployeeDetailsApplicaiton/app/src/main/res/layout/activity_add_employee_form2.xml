@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddEmployeeForm2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Form 2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Skills"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cbJava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="selectLanguage"
+                android:text="Java" />
+
+            <CheckBox
+                android:id="@+id/cbPHP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="selectLanguage"
+                android:text="PHP" />
+
+            <CheckBox
+                android:id="@+id/cbPython"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="selectLanguage"
+                android:text="Python" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cbCSharp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="selectLanguage"
+                android:text="C#" />
+
+            <CheckBox
+                android:id="@+id/cbCPP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="selectLanguage"
+                android:text="C++" />
+
+            <CheckBox
+                android:id="@+id/cbKotlin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="selectLanguage"
+                android:text="Kotlin" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Employment type"
+        android:textSize="14sp" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spEmpTypes"></Spinner>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:onClick="goNext"/>
+
+
+</LinearLayout>

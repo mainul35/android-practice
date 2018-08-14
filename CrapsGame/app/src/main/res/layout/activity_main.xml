@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/bnDice1Point"
+            android:text="Button"
+          />
+
+        <Button
+            android:id="@+id/btnDice2Point"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Button"
+            tools:ignore="MissingConstraints"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textVew1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plaer rolled : " />
+
+        <TextView
+            android:id="@+id/tvLastRollingPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="........" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your point : " />
+
+        <TextView
+            android:id="@+id/tvBasePoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            tools:text="............" />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/tvContinueRolling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cotinue rolling..." />
+
+    <Button
+        android:id="@+id/btnRoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="rollDice"
+        android:text="Roll" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="restart"
+        android:text="Restart" />
+</LinearLayout>

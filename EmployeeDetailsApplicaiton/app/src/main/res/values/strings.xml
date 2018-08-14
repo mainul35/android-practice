@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Displaying list of employees</string>
+    <string name="title_activity_add_employee_form2">AddEmployeeForm2</string>
+    <string-array name="empTypes">
+        <item>Full Time Employee</item>
+        <item>Part Time Employee</item>
+        <item>Commissioned Employee</item>
+    </string-array>
+</resources>
